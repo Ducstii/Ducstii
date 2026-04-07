@@ -1,0 +1,33 @@
+name: Update Latest Repo Badge
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # runs daily at midnight UTC
+  workflow_dispatch:      # lets you trigger it manually from the Actions tab
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get latest pushed repo
+        id: latest
+        run: |
+          REPO=$(curl -s "https://api.github.com/users/Ducstii/repos?sort=pushed&per_page=1" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            | jq -r '.[0].name')
+          echo "repo=$REPO" >> $GITHUB_OUTPUT
+
+      - name: Update README badge
+        run: |
+          REPO="${{ steps.latest.outputs.repo }}"
+          BADGE="<a href=\"https://github.com/Ducstii/${REPO}/commits\"><img src=\"https://img.shields.io/github/last-commit/Ducstii/${REPO}?style=for-the-badge&logo=github&label=${REPO}%20updated\" alt=\"Last commit to ${REPO}\" /></a>"
+          # Replace everything between the marker comments
+          perl -i -0pe "s|<!-- LATEST_REPO_BADGE:START -->.*?<!-- LATEST_REPO_BADGE:END -->|<!-- LATEST_REPO_BADGE:START -->\n  ${BADGE}\n  <!-- LATEST_REPO_BADGE:END -->|s" README.md
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (git add README.md && git commit -m "chore: update latest repo badge" && git push)
