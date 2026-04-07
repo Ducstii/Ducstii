@@ -6,7 +6,7 @@
 
 <p align="center">
   <em>Newer developer for multiple projects.</em>
-</p>
+</p> 
 
 <br />
 I make plugins for SCP: SL, EXILED and LabAPI frameworks. I am working in kotlin more recently for minecraft mod development.
