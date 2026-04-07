@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * *'  # runs daily at midnight UTC
   workflow_dispatch:      # lets you trigger it manually from the Actions tab
 
+permissions:
+  contents: write
+
 jobs:
   update-badge:
     runs-on: ubuntu-latest
