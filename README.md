@@ -47,7 +47,7 @@ I make plugins for SCP: SL, EXILED and LabAPI frameworks. I am working in kotlin
   <a href="https://github.com/Ducstii?tab=followers"><img src="https://img.shields.io/github/followers/Ducstii?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" /></a>
   <a href="https://github.com/Ducstii?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDucstii&query=%24.public_repos&label=public%20repos&logo=github&style=for-the-badge" alt="Public repository count" /></a>
   <!-- LATEST_REPO_BADGE:START -->
-  <a href="https://github.com/Ducstii/Ducstii/commits"><img src="https://img.shields.io/github/last-commit/Ducstii/Ducstii?style=for-the-badge&logo=github&label=Ducstii%20updated" alt="Last commit to Ducstii" /></a>
+  <a href="https://github.com/Ducstii/BountyHunter/commits"><img src="https://img.shields.io/github/last-commit/Ducstii/BountyHunter?style=for-the-badge&logo=github&label=BountyHunter%20updated" alt="Last commit to BountyHunter" /></a>
   <!-- LATEST_REPO_BADGE:END -->
 </p>
 
