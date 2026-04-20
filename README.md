@@ -23,19 +23,17 @@ I make plugins for SCP: SL, EXILED and LabAPI frameworks. I am working in kotlin
 
 ## Projects here that aren’t junk
 
-- [**ShivsLabAPI**](https://github.com/Ducstii/ShivsLabAPI) — A [**LabAPI**](https://github.com/northwood-labs/LabAPI) plugin for **SCP: Secret Laboratory** that adds shivs. Stabby
-- [**Spawnwaves**](https://github.com/Ducstii/Spawnwaves): My plugin that I made on request for someone. All it does is toggle the spawnablility of spawnwaves.
+- [**ShivsLabAPI**](https://github.com/Ducstii/ShivsLabAPI): A [**LabAPI**](https://github.com/northwood-labs/LabAPI) plugin for **SCP: Secret Laboratory** that adds shivs. Stabby
 
 ---
 
-## Toolbox
+## Tools
 
 <p>
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img alt=".NET" src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
   <img alt="C#" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <img alt="Minecraft" src="https://img.shields.io/badge/Minecraft-62B47A?style=for-the-badge&logo=minecraft&logoColor=white" />
 </p>
 
 
