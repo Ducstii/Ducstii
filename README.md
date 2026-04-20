@@ -51,10 +51,6 @@ I make plugins for SCP: SL, EXILED and LabAPI frameworks. I am working in kotlin
 
 
 
-<p align="center">
-  <a href="https://github.com/Ducstii">Full contribution graph on my profile →</a>
-</p>
-
 ---
 
 ## Say something
