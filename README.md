@@ -13,15 +13,15 @@ I make plugins for SCP: SL, EXILED and LabAPI frameworks. I am working in kotlin
 
 ---
 
-## What I’m actually doing
+## What I’m doing
 
-**Kotlin & Minecraft**: I'm learing kotlin for minecraft mods so I can extend my reach of experience in the software development fields.
+**Kotlin & Minecraft**: I'm learing kotlin for minecraft mods. Very tuff.
 
 **.NET**: I know C#, I use .NET for my projects that I run on my server. Stuff like Minecraft server wrappers. I also mess around in AI wrappers in .NET
 
 ---
 
-## Projects here that aren’t junk
+## Projects
 
 - [**ShivsLabAPI**](https://github.com/Ducstii/ShivsLabAPI): A [**LabAPI**](https://github.com/northwood-labs/LabAPI) plugin for **SCP: Secret Laboratory** that adds shivs. Stabby
 
