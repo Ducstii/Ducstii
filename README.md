@@ -4,20 +4,10 @@
   <a href="https://github.com/Ducstii"><strong>@Ducstii</strong></a>
 </p>
 
-<p align="center">
-  <em>Newer developer for multiple projects.</em>
-</p> 
+
 
 <br />
 I make plugins for SCP: SL, EXILED and LabAPI frameworks. I am working in kotlin more recently for minecraft mod development.
-
----
-
-## What I’m doing
-
-**Kotlin & Minecraft**: I'm learing kotlin for minecraft mods. Very tuff.
-
-**.NET**: I know C#, I use .NET for my projects that I run on my server. Stuff like Minecraft server wrappers. I also mess around in AI wrappers in .NET
 
 ---
 
@@ -48,11 +38,3 @@ I make plugins for SCP: SL, EXILED and LabAPI frameworks. I am working in kotlin
   <a href="https://github.com/Ducstii/pi-advisor/commits"><img src="https://img.shields.io/github/last-commit/Ducstii/pi-advisor?style=for-the-badge&logo=github&label=pi-advisor%20updated" alt="Last commit to pi-advisor" /></a>
   <!-- LATEST_REPO_BADGE:END -->
 </p>
-
-
-
----
-
-## Say something
-
-If something breaks or you’re curious about a repo, open an issue.
